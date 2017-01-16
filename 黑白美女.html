@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+		*{margin: 0px;padding: 0px;}
+		body{background-color: black;}
+		.clear:after{content: "";clear: both;display: block;overflow: hidden;height: 0px;}
+		.clear{-ms-zoom: 1;}
+		li{list-style-type: none;}
+		a{text-decoration: none;}
+
+		.box{width: 800px;border:2px solid white;margin:50px auto;}
+		.title{
+			text-align: center;
+			line-height: 100px;
+		}
+		.title>span.title_left{color: white;font-size: 14px;font-weight: bolder;vertical-align: middle;}
+		.title>span.title_right{color: white;font-size: 30px;font-weight: bolder;vertical-align: middle;}
+
+		.content_left{
+			overflow: hidden;
+			width: 400px;
+			height:200px;float: left;
+			margin-left: 50px;
+		}
+		.content_right{
+			float:right; width:168px;height: 200px;
+			overflow:scroll;
+		}
+		.footer{margin-top: 20px;}
+		.footer>p.name{color: white;}
+		.footer>p.address{}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="title">
+			<span class="title_left">电子相册</span>
+			<span class="title_right">-天使在人间</span>
+		</div>
+		<div class="content clear">
+			<div class="content_left">
+				<ul>
+					<li  id="img1"><img src="黑白美女/images/mn1.jpg" alt=""></li>
+					<li  id="img2"><img src="黑白美女/images/mn3.jpg" alt=""></li>
+					<li id="img6"><img src="黑白美女/images/mn3.jpg" alt=""></li>
+					<li id="img4"><img src="黑白美女/images/mn4.jpg" alt=""></li>
+					<li id="img5"><img src="黑白美女/images/mn5.jpg" alt=""></li>
+					<li  id="img6"><img src="黑白美女/images/mn6.jpg" alt=""></li>
+					<li id="img7"><img src="黑白美女/images/mn7.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div class="content_right">
+				<ul>
+					<li><a href="#img1" title=""><img src="黑白美女/images/s1.jpg" alt=""></a></li>
+					<li><a href="#img2" title=""><img src="黑白美女/images/s2.jpg" alt=""></a></li>
+					<li ><a href="#img3" title=""><img src="黑白美女/images/s3.jpg" alt=""></a></li>
+					<li ><a href="#img4" title=""><img src="黑白美女/images/s4.jpg" alt=""></a></li>
+					<li><a href="#img5" title=""><img src="黑白美女/images/s5.jpg" alt=""></a></li>
+					<li ><a href="#img6" title=""><img src="黑白美女/images/s6.jpg" alt=""></a></li>
+					<li><a href="#img7" title=""><img src="黑白美女/images/s7.jpg" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="name">奥黛丽 赫本</p>
+			<p class="address"><a href="#">www.baidu.com</a></p>
+		</div>
+	</div>
+</body>
+</html>
